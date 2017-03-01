@@ -1,0 +1,16 @@
+Dependencies:
+
+  brew install neovim/neovim/neovim
+  brew install fzf
+  brew install sourcekitten 
+  brew install swiftlint 
+  pip3 install neovim jedi flake8 pylint pyyaml
+  pip2 install neovim pyyaml
+  gem install neovim 
+  stack install hlint ghc-mod
+
+Installation:
+
+  git clone git://github.com/alexmacedo/nvim-config.git ~/.config/nvim
+
+Then, open editor `nvim` and execute `:PlugInstall`.
